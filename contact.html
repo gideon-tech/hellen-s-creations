@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Hellen Creations</title>
+  <meta name="description" content="Get in touch with Hellen Creations — order a product, request a custom piece, support our mission, or partner with us.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+  <!-- Font Awesome 5 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Owl Carousel 2 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+  <!-- Hellen Creations Overrides (load last) -->
+  <link rel="stylesheet" href="css/hellen-overrides.css">
+</head>
+<body>
+
+  <!-- ==================== TOP BAR ==================== -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-7 d-flex align-items-center flex-wrap">
+          <a href="https://wa.me/256700474721"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+          <a href="mailto:nyamwengesaudah@gmail.com"><i class="fas fa-envelope"></i> nyamwengesaudah@gmail.com</a>
+        </div>
+        <div class="col-md-5 text-right top-social d-none d-md-flex justify-content-end align-items-center">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="TikTok" style="font-size:11px;font-weight:700;letter-spacing:0.5px;">TikTok</a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav class="navbar navbar-expand-lg main-nav" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/tp-logo-hc.png" alt="Hellen Creations"
+             onerror="this.outerHTML='<span class=\'navbar-brand-text\'>Hellen Creations</span>'">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navCollapse" aria-controls="navCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="Cause.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn-support ml-lg-3 mt-2 mt-lg-0">Support Us</a>
+      </div>
+    </div>
+  </nav>
+  <!-- / Navigation -->
+
+  <!-- ==================== BREADCRUMB ==================== -->
+  <div class="breadcam_area">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <!-- / Breadcrumb -->
+
+  <!-- ==================== CONTACT ==================== -->
+  <section class="contact_area">
+    <div class="container">
+
+      <!-- Intro -->
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 text-center">
+          <h2>Get in Touch</h2>
+          <p style="font-size:17px;color:var(--hc-text-light);">Whether you want to order a product, request a custom piece, support our mission, or partner with us — we'd love to hear from you.</p>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <!-- Left: WhatsApp CTA + Form -->
+        <div class="col-lg-7 mb-4 mb-lg-0">
+
+          <!-- WhatsApp CTA -->
+          <div class="whatsapp-cta-block">
+            <h4><i class="fab fa-whatsapp"></i> Fastest Response on WhatsApp</h4>
+            <p>Chat with us directly for orders, custom requests, or any questions about our products.</p>
+            <a href="https://wa.me/256700474721" class="btn-whatsapp">
+              <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+          </div>
+
+          <!-- Contact Form (Formspree) -->
+          <div class="contact-form-wrap">
+            <h3>Send Us a Message</h3>
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+              <input type="hidden" name="_subject" value="New message from Hellen Creations website">
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="contactName">Your Name</label>
+                    <input type="text" id="contactName" name="name" class="form-control" placeholder="Jane Smith" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="contactEmail">Email Address</label>
+                    <input type="email" id="contactEmail" name="email" class="form-control" placeholder="jane@example.com" required>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contactSubject">Subject</label>
+                <input type="text" id="contactSubject" name="subject" class="form-control" placeholder="Product inquiry / Custom order / Partnership…">
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage">Message</label>
+                <textarea id="contactMessage" name="message" class="form-control" rows="5" placeholder="Tell us what you're looking for…" required></textarea>
+              </div>
+
+              <button type="submit" class="boxed-btn3" style="width:100%;text-align:center;">Send Message</button>
+            </form>
+          </div>
+
+        </div>
+
+        <!-- Right: Contact Info -->
+        <div class="col-lg-5">
+          <div class="contact-info-wrap">
+            <h3>Contact Information</h3>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-info-text">
+                <h5>Location</h5>
+                <p>Based in Uganda, East Africa<br>Serving customers worldwide.</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-info-text">
+                <h5>Email</h5>
+                <a href="mailto:nyamwengesaudah@gmail.com">nyamwengesaudah@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <div class="contact-info-text">
+                <h5>WhatsApp</h5>
+                <a href="https://wa.me/256700474721">Chat with us on WhatsApp</a>
+                <p>Fastest way to reach us for orders</p>
+              </div>
+            </div>
+
+            <!-- Social -->
+            <div class="contact-social-block">
+              <h5>Find Us On:</h5>
+              <div class="contact-social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="TikTok" style="font-size:10px;font-weight:800;">TT</a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+
+            <!-- Custom Order note -->
+            <div style="background:var(--hc-light);border-radius:10px;padding:20px;margin-top:24px;border:1px solid var(--hc-border);">
+              <h5 style="color:var(--hc-primary) !important;margin-bottom:8px;"><i class="fas fa-paint-brush" style="margin-right:8px;"></i>Custom Orders</h5>
+              <p style="font-size:14px;color:var(--hc-text-light) !important;margin:0;">We create custom products to your specifications — colors, sizes, patterns. Mention "custom order" in your message.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- / Contact -->
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer_area">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 footer-widget">
+          <a href="index.html">
+            <img src="img/tp-logo-hc.png" alt="Hellen Creations" style="max-height:48px;"
+                 onerror="this.outerHTML='<span style=\'font-family:Playfair Display,serif;font-size:20px;font-weight:700;color:#D4A259\'>Hellen Creations</span>'">
+          </a>
+          <p style="margin-top:14px;">A Uganda-based social enterprise and NGO empowering women artisans through skills training and global market connections.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="TikTok" style="font-size:10px;font-weight:800;">TT</a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-widget">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="Cause.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-widget">
+          <h4 class="footer-title">Contact Us</h4>
+          <ul>
+            <li><i class="fas fa-map-marker-alt" style="color:var(--hc-gold);margin-right:8px;"></i>Uganda, East Africa</li>
+            <li><a href="mailto:nyamwengesaudah@gmail.com"><i class="fas fa-envelope" style="color:var(--hc-gold);margin-right:8px;"></i>nyamwengesaudah@gmail.com</a></li>
+            <li><a href="https://wa.me/256700474721"><i class="fab fa-whatsapp" style="color:var(--hc-gold);margin-right:8px;"></i>Chat on WhatsApp</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-widget">
+          <h4 class="footer-title">Our Partners</h4>
+          <ul>
+            <li>Uganda NGO</li>
+            <li>Mumi</li>
+            <li>Anasi Farmers (Casi Nazi)</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Hellen Creations. All rights reserved. | Built by <a href="mailto:contact@makugideon.dev">Maku Gideon</a></p>
+      </div>
+    </div>
+  </footer>
+  <!-- / Footer -->
+
+  <!-- ==================== SCRIPTS ==================== -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
